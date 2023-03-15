@@ -9,7 +9,4 @@ urlpatterns = [
     path('resetpassword/<uid>/<token>/', PasswordResetView.as_view(), name="reset-with-link")
     
 
-
-
-
 ]
